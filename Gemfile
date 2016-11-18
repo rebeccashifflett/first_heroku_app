@@ -17,11 +17,14 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 #Bootstrap front end framework
 gem 'bootstrap-sass'
-#paperclip for model images
-gem 'paperclip'
+
+
 #lists how many pages of resuls at the bottom
 gem 'will_paginate'
 gem 'devise'
+gem 'cloudinary'
+gem 'attachinary'
+
 
 group :development, :test do
   # Call 'pry' anywhere in the code to stop execution and get a debugger console
@@ -29,6 +32,7 @@ gem 'pry'
 gem 'faker'
 gem 'populator'
 gem 'annotate'
+gem 'dotenv-rails'
 end
 
 group :development do
